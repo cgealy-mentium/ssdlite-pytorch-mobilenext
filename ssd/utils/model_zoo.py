@@ -7,11 +7,11 @@ import torch
 from ssd.utils.dist_util import is_main_process, synchronize
 
 try:
-    from torch.hub import _download_url_to_file
+    from torch.hub import download_url_to_file as _download_url_to_file
     from torch.hub import urlparse
     from torch.hub import HASH_REGEX
 except ImportError:
-    from torch.utils.model_zoo import _download_url_to_file
+    from torch.utils.model_zoo import download_url_to_file as _download_url_to_file
     from torch.utils.model_zoo import urlparse
     from torch.utils.model_zoo import HASH_REGEX
 
