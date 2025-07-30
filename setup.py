@@ -19,7 +19,7 @@ setup(
     description="Implementation of SSDLite in PyTorch",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Andrew-Qibin/ssdlite-pytorch",
+    url="https://github.com/cgealy-mentium/ssdlite-pytorch-mobilenext.git",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
